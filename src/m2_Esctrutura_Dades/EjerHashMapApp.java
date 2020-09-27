@@ -24,7 +24,6 @@ public class EjerHashMapApp {
 			
 			String clave=entrada.getKey();
 			Empleado valor=entrada.getValue();
-			
 			System.out.println("Clave=" + clave + ", Valor=" + valor);
 		}
 		
