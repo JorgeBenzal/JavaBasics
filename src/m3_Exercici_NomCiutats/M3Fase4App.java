@@ -87,7 +87,8 @@ public class M3Fase4App {
 			}
 	}
 	
-	//Metodo introducir los valores de las ciudades en Arrays. 
+	//Metodo introducir los valores de las ciudades en Arrays.
+	
 	public static void creaArray(int num, String nom) {
 		
 		Character list[] = new Character[num];
