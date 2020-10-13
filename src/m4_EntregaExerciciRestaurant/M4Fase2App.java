@@ -4,7 +4,7 @@
  * Date: 05/10/2020
  * Description:Exercici: Amb un bucle for haurem d’omplir els dos arrays anteriorment creats. 
  * 	Afegirem el nom del plat i després el preu.Pots fer us de diccionaris de dades(Java HasMap)
- * 	Un cop plens els dos arrays hauremde mostrar-los i preguntar que es vol per menjar, guardarem 
+ * 	Un cop plens els dos arrays haurem de mostrar-los i preguntar que es vol per menjar, guardarem 
  * 	la informació en una List fent servir un bucle while. Haurem de preguntar si es vol seguir 
  * 	demanant menjar. Podeu fer servir el sistema (1:Si / 0:No), per tant haureu de crear un altre 
  * 	variable int per guardar la informació.
@@ -32,7 +32,7 @@ public class M4Fase2App {
 		String menu[] = new String[10];
 		int preu[] = new int[10];
 
-		// Definimos un Hashmap con la información para rellenar las arrays amb metode.
+		// Creamos los Hashmap con los metodos.  Pasamos los valores a las arrays creadas.
 		// Con un bucle rellenamos el array menu anteriormente creado.
 
 		for (int i = 0; i < menu.length; i++) {
